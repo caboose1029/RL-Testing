@@ -15,7 +15,7 @@ class Plot:
         plt.plot(self.time, euler_angles)
         plt.title('Spacecraft Orientation Over Time')
         plt.xlabel('Time (seconds)')
-        plt.ylabel('Orientation (rad)')
+        plt.ylabel('Euler Angles (rad)')
         plt.legend(['Phi', 'Theta', 'Psy'])
         plt.grid(True)
         plt.show()
